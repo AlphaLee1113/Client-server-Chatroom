@@ -1,6 +1,12 @@
 This is a prohect in COMP4621: Computer Communication Networks I
 which is a client-server application to create a multi party 
-chatroom. In the beginning the server side starts and waits for connection requests 
+chatroom. This code is written in C and needed to be run on Putty.
+
+After connecting Putty, please compile and run "./server.out" for running the server,
+and "./client.out" for running the client side.
+
+
+In the beginning the server side starts and waits for connection requests 
 to arrive from clients. When a client starts it requests immediately a connection to 
 the server upon which it is required to supply a nickname for the user in the 
 chatroom. The nickname is used for registration or login. The server maintains a list 
